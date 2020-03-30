@@ -1,6 +1,6 @@
     # Локальное вэб-приложение. Поиск заданных символоф во фразе. Запись данных в MySQL
 		
-		from flask import Flask, render_template, request, escape, session, copy_current_request_context
+    from flask import Flask, render_template, request, escape, session, copy_current_request_context
     from vsearch import search4letters
 
     from DBcm import UseDatabase, ConnectionError, CredentialsError, SQLError
